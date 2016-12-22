@@ -49,6 +49,10 @@ public class GenericList<T> extends AbstractCollection<T> implements Deque<T>, C
 	}
   	a = b;
    }
+   public void printMessage( string message)
+   {
+        System.out.println("Variable Value :" + message);
+   }
 
   
 
